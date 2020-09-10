@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------question-1----------------------------------*/
+
+.items-cont
+{
+    background-color: #e9ecef;
+}
+
+.items-cont h2
+{
+    color: #28a745;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.items-cont p
+{
+    color: #787878;
+    line-height: 0.7rem;
+}
+
+.item
+{
+    width: 65%;
+}
+
+/*--------------------------------------/question-1----------------------------------*/
+
+/*--------------------------------------question-2----------------------------------*/
+
+.hideIt
+{
+    position: fixed;
+    top: -1000px;
+    z-index: -1000;
+}
+
+#q2 h2
+{
+    font-size: 7rem;
+    line-height: 30rem;
+}
+
+.change-colors
+{
+    animation: changecolors 3s infinite;
+}
+
+@keyframes changecolors
+{
+    0% { background-color: rgb(240, 117, 9); }
+    10% { background-color: rgb(255, 0, 0); }
+    20% { background-color: rgb(30, 218, 108); }
+    30% { background-color: rgb(164, 22, 230); }
+    40% { background-color: #D2B4DE; }
+    50% { background-color: rgb(238, 21, 50); }
+    60% { background-color: rgb(73, 8, 2); }
+    70% { background-color: rgb(138, 134, 175); }
+    80% { background-color: rgb(186, 223, 25); }
+    90% { background-color: rgb(223, 76, 7); }
+    100% { background-color: rgb(177, 13, 241); }
+}
+
+/*--------------------------------------/question-2----------------------------------*/
+
+/*--------------------------------------question-3----------------------------------*/
+
+#q3 h2
+{
+    font-size: 3rem;
+}
+
+
+.countDown
+{
+    border: 2px solid white;
+    padding: 30px 30px;
+    margin: 0 30px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 0.7rem;
+}
+
+#q3 p
+{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/*--------------------------------------/question-3----------------------------------*/
+
+/*--------------------------------------question-4----------------------------------*/
+
+#q4
+{
+    overflow: hidden;
+}
+
+#q4 h2
+{
+    font-size: 30rem;
+    text-shadow: -20px -20px white;
+}
+
+#r
+{
+    color: #ff0000;
+}
+
+#g
+{
+    color: #00ff00;
+}
+
+#b
+{
+    color: #0000ff;
+}
+
+.black-to-all
+{
+    color: black !important;
+}
+
+/*--------------------------------------/question-4----------------------------------*/
